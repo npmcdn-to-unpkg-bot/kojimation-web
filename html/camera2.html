@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja" >
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css">
+<!--&#91;if lt IE 9&#93;>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<!&#91;endif&#93;-->
+<link rel="shortcut icon" href="">
+</head>
+<style>
+#image_after{
+ // filter: saturate(137%) hue-rotate(327deg) brightness(113%) ;
+ // -webkit-filter: saturate(137%) hue-rotate(327deg) brightness(113%) ;
+ // -moz-filter: saturate(137%) hue-rotate(327deg) brightness(113%) ;
+ // -o-filter: saturate(137%) hue-rotate(327deg) brightness(113%) ;
+ // -ms-filter: saturate(137%) hue-rotate(327deg) brightness(113%); 
+  filter: saturate(130%) brightness(110%) contrast(110%) ;
+  -webkit-filter: saturate(130%) brightness(110%) contrast(110%) ;
+  -moz-filter: saturate(130%) brightness(110%) contrast(110%) ;
+  -o-filter: saturate(130%) brightness(110%) contrast(110%) ;
+  -ms-filter: saturate(130%) brightness(110%) contrast(110%) ;
+}
+
+#image_after::before{
+//  background: rgba(43,206,255,0.29);
+background: rgba(243,106,188,0.3);
+  mix-blend-mode: screen;
+  z-index:2;
+}
+#image_after::after{
+//  background: rgba(255,48,41,0.17);
+//  mix-blend-mode: overlay;
+//  z-index:3;
+}
+#image_after::before,#image_after::after{
+    content: '';
+ //   height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+ //   top: 0;
+ //   left: 0;
+    pointer-events: none;
+padding-top:75%;
+}
+#shadow{
+    width: 100%;
+    -webkit-box-shadow: 0px 10px 58px 14px rgba(53, 53, 53, 0.3) inset;
+    padding-top:75%;
+    /* background: #920000; */
+    //top: 8px;
+    position: absolute;
+float:left;
+}
+#camera{
+width:100%;
+height:100%;
+float:left;
+}
+body{
+margin:0;
+}
+</style>
+<body>
+
+<div id="image_after">
+<img id="camera" src="http://kiyabld.tokyo:8082">
+<div id="shadow">
+</div>
+</div>
+<!-- Place your content here -->
+<!-- SCRIPTS -->
+<!-- Example: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+</body>
+</html>
+

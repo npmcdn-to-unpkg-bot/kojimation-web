@@ -1,0 +1,75 @@
+.header{
+background:#007C6C;
+height:50px;
+}
+.header p{
+text-align:right;
+}
+.subheader{
+//height:20px;
+//background:#0E0E0E;
+}
+.bluefil{
+//background:rgba(0,0,255,0.2);
+}
+
+img{
+//-webkit-filter:contrast(1.5) brightness(1.5) grayscale(0.7) saturate(1.6) opacity(0.65) invert(0.05) hue-rotate(348deg);
+width:100%;/Users/saitounaoki/Desktop/photo/html/css/drawer_styles.css
+}
+.imgcont{
+//background:url("http://192.168.1.38:8081");
+background:rgba(0,0,255,0.1);
+-webkit-filter:hue-rotate(345deg) saturate(3.16) brightness(1.25) contrast(1.05) grayscale(0.5);
+z-index:1;
+width:100%;
+height:240px;
+overflow:hidden;
+}
+
+span.live{
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+background:#E91E63;
+color:#fff;
+padding:4px 8px 4px 8px;
+margin-right:5px;
+font-size:12px;
+//kadomaru
+display:block;
+width:50px;
+border-radius:5px;
+float:left;
+text-align:center;
+margin:10px;
+}
+span{
+margin:10px;
+display:block;
+font-family:sans-serif;
+font-weight:bold;
+}
+.videoheader{
+z-index:100;
+font-family:gothic;
+background:rgba(0,0,0,0.2);
+height:45px;
+//color:#999;
+color:#fff;
+position:absolute;
+width:100%;
+//margin-top:10px;
+-webkit-filter:contrast(1.0) brightness(1.0); !important;
+}
+.contents{
+background:#eee;
+height:240px;
+}
+.fa{
+color:#fff;
+//border-left:1px solid #BED4D2;
+padding:9px;
+}
+.fa:hover{
+background:#374E3F;
+cursor:pointer;
+}
